@@ -2,7 +2,7 @@
     "drinks":[
         {
         "titulo":"Maracuja",
-        "imagem": "./../ASSETS/M1.png",
+        "imagem": "./ASSETS/M1.png",
         "ingredientes": [
             "2 oz Cachaça",
             "1/2 Maracuja",
@@ -12,7 +12,7 @@
 
         {
         "titulo":"Laranja",
-        "imagem": "./../ASSETS/L2.png",
+        "imagem": "./ASSETS/L2.png",
         "ingredientes":[ 
             "50ml de vodka", 
             "50ml de suco de laranja",
@@ -22,7 +22,7 @@
         },
         {
         "titulo":"Morango",
-        "imagem": "./../ASSETS/Mo3.png",
+        "imagem": "./ASSETS/Mo3.png",
         "ingredientes":[ 
             "1 xícara (chá) de Morangos (picados)",
             "1 colher (sopa) de Mel", 
@@ -31,7 +31,7 @@
         }, 
         {
             "titulo":"Limão",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -40,7 +40,7 @@
             },
         {
             "titulo":"Abacaxi",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -49,7 +49,7 @@
             },
         {
             "titulo":"Uva",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -58,7 +58,7 @@
             },
         {
             "titulo":"Sex on beach",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -68,7 +68,7 @@
             
         {
             "titulo":"Mojito",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -77,7 +77,7 @@
             },
         {
             "titulo":"Pina Colada",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -86,7 +86,7 @@
             },
         {
             "titulo":"Marguarita",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -96,7 +96,7 @@
             
         {
             "titulo":"Aperol",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 
@@ -106,7 +106,7 @@
             
         {
             "titulo":"Cosmopolitan",
-            "imagem": "./../ASSETS/Mo3.png",
+            "imagem": "./ASSETS/Mo3.png",
             "ingredientes":[ 
                 "1 xícara (chá) de Morangos (picados)",
                 "1 colher (sopa) de Mel", 

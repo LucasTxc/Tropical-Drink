@@ -1,6 +1,6 @@
-import "./../JAVASCRIPT/prepara.js";
-import "./../JAVASCRIPT/home.js";
-import "./../JAVASCRIPT/produtos.js";
+import "./prepara.js";
+import "./home.js";
+import "./produtos.js";
 
 
 

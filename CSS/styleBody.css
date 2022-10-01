@@ -147,7 +147,8 @@ li:hover{
    grid-template-columns: repeat(4,1fr);
    gap: 15px;
    justify-content: center;
-   margin-top: 700px;
+   margin-top: 750px;
+   margin-bottom: 20px;
   
    
 }
@@ -184,76 +185,88 @@ h1{
     
     background-color: rgba(239, 247, 6, 0.421); 
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 .receita.n1{
     
     background-color: rgba(255, 166, 0, 0.6);    
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 }
 .receita.n2{
     
     background-color: rgba(255, 0, 0, 0.46);    
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
    
 }
 .receita.n3{
     
     background-color: rgba(48, 221, 29, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 }
 .receita.n4{
 
     background-color: rgba(183, 221, 29, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 .receita.n5{
 
     background-color: rgba(119, 29, 221, 0.555);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 }
 .receita.n6{
 
     
     background-image: linear-gradient( to right, rgba(255, 60, 0, 0.593), rgba(255, 255, 0, 0.708));
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 }
 .receita.n7{
     
     background-color: rgba(24, 134, 12, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 }
 .receita.n8{
     background-color: rgba(192, 219, 189, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 .receita.n9{
     background-color: rgba(84, 148, 77, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 .receita.n10{
     background-color: rgba(221, 103, 29, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 .receita.n11{
     background-color: rgba(186, 7, 7, 0.708);
     border-radius: 12px;
-    box-shadow: 12px 12px rgba(30, 29, 31, 0.589);
+    box-shadow: 12px 12px rgba(3, 0, 5, 0.756);
+
 
 }
 /*Fim da estilização do card da pagina prepara*/
@@ -299,4 +312,7 @@ h1{
 .labelDark{
     font-family:"Poppins";
     color: var(--textColor);
+}
+.labelDark:hover{
+   color: white;
 }
