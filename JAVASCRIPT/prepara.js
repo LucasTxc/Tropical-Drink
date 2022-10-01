@@ -2,7 +2,7 @@ let div = document.createElement("div");
 div.className='hcontainer';
 
 
-import receitas from "../receitaDrinks.json" assert {type: "json"}//Importar arquivo JSON
+import receitas from "./../receitaDrinks.json" assert {type: "json"}//Importar arquivo JSON
 
 const drinks = receitas.drinks
 
