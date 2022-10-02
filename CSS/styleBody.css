@@ -285,6 +285,8 @@ h1{
     position: fixed;
     right: 0;
     bottom: 0;
+    margin-right:15px;
+    margin-bottom: 15px;
     
    
 }
@@ -310,8 +312,13 @@ h1{
 
 }
 .labelDark{
+    display: flex;
+    justify-content: flex-end;
     font-family:"Poppins";
     color: var(--textColor);
+    
+    
+    
 }
 .labelDark:hover{
    color: white;
