@@ -1,8 +1,7 @@
 let div = document.createElement("div");
 div.className='hcontainer';
 
-
-
+// IMPORTAÇÃO JS
 
 import * as receitas from "../receitaDrinks.js"
 // const varJson = require("../receitaDrinks.json"); Segunda tentativa
