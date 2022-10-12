@@ -2,8 +2,28 @@ let div = document.createElement("div");
 div.className='hcontainer';
 
 
-import receitas from "../receitaDrinks.json" assert {type: "json"}//Importar arquivo JSON
+    
+import * as receitas from "../receitaDrinks.js"
+// const varJson = require("../receitaDrinks.json"); Segunda tentativa
+ 
+// const varJson = fetch("../receitaDrinks.json"); Terceira tentativa
 
+
+// fetch("../receitaDrinks.json")
+//   .then((res) => res.json())
+//   .then((data) => {
+//     console.log(data)
+//   });
+
+// const jsonModule = await import("../receitaDrinks.json", {
+//     assert: { type: 'json' }
+//   });
+//   console.log(jsonModule.default.drinks); // 42
+
+// var jqxhr = $.getJSON( "../receitaDrinks.js", function() {
+//     console.log( "success" );
+//   })
+//   console.log(jqxhr)
 const drinks = receitas.drinks
 
 
@@ -27,7 +47,7 @@ function template() {
        
         `
     }).join("")}
-    `}
+`}
 // navbar do header
 
 const headerx = document.createElement('header');
