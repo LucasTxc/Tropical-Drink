@@ -1,7 +1,7 @@
 // TRANFOMAÇÃO PARA JS
 export let drinks = [
     {
-        titulo: "Maracuja",
+        titulo: "Passion fruit",
         imagem: "./ASSETS/M1.png",
         ingredientes: [
             "2 oz Cachaça",
@@ -11,7 +11,7 @@ export let drinks = [
     },
 
     {
-        titulo: "Laranja",
+        titulo: "Orange",
         imagem: "./ASSETS/L2.png",
         ingredientes: [
             "50ml de vodka",
@@ -21,7 +21,7 @@ export let drinks = [
 
     },
     {
-        titulo: "Morango",
+        titulo: "Strawberry",
         imagem: "./ASSETS/Mo3.png",
         ingredientes: [
             "1 xícara (chá) de Morangos (picados)",
@@ -30,7 +30,7 @@ export let drinks = [
             "1 litro de Refrigerante de Limão"]
     },
     {
-        titulo: "Limão",
+        titulo: "Lemon",
         imagem: "./ASSETS/limão.png",
         ingredientes: [
             "60 ml de cachaça",
@@ -39,7 +39,7 @@ export let drinks = [
         ]
     },
     {
-        titulo: "Abacaxi",
+        titulo: "Pineapple",
         imagem: "./ASSETS/abacaxi.png",
         ingredientes: [
             "1 abacaxi pequeno",
@@ -50,7 +50,7 @@ export let drinks = [
         ]
     },
     {
-        titulo: "Uva",
+        titulo: "Grape",
         imagem: "./ASSETS/uva.png",
         ingredientes: [
             "20 unidades de uva verde",
@@ -92,7 +92,7 @@ export let drinks = [
         ]
     },
     {
-        titulo: "Marguarita",
+        titulo: "Margarita",
         imagem: "./ASSETS/marguarita.png",
         ingredientes: [
             "40 ml de tequila",
