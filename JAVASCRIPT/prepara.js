@@ -6,6 +6,8 @@ div.className='hcontainer';
 // import * as receitas from "../JAVASCRIPT/receitaDrinks.js";
 //----------------------------------------------
 
+// Litura do Json em todos os navegadores.
+ 
 fetch("../receitaDrinks.json")
   .then((response) => {
     if (!response.ok) {
