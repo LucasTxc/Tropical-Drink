@@ -3,33 +3,44 @@ div.className='hcontainer';
 
 // IMPORTAÇÃO JS
 
-import * as receitas from "../receitaDrinks.js"
-// const varJson = require("../receitaDrinks.json"); Segunda tentativa
- 
-// const varJson = fetch("../receitaDrinks.json"); Terceira tentativa
+// import * as receitas from "../JAVASCRIPT/receitaDrinks.js";
+//----------------------------------------------
+
+fetch("../receitaDrinks.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error, status = ${response.status}`);
+    }
+    return response.json();
+  })    
+  .then((data) => {
+    const divPreparo = document.createElement('div');
+    divPreparo.className = 'divPreparo'
+    divPreparo.style.display = 'none'
+    divPreparo.innerHTML = template(data)
+    div.appendChild(divPreparo);
+
+    // Botão para de scrollto, para subir para o top da pagina
+    const buttoUp = document.createElement('button')
+    buttoUp.className = 'buttoUp';
+    buttoUp.innerHTML = 'Up';
+    buttoUp.addEventListener('click',() => window.scrollTo(0,0))
+    divPreparo.appendChild(buttoUp);
+   
+  })
+  .catch((error) => {
+    const p = document.createElement('p');
+    p.appendChild(document.createTextNode(`Error: ${error.message}`));
+    document.body.insertBefore(p, myList);
+  });
+
+//----------------------------------------------------------------------
+// const drinks = receitas.drinks
 
 
-// fetch("../receitaDrinks.json")
-//   .then((res) => res.json())
-//   .then((data) => {
-//     console.log(data)
-//   });
-
-// const jsonModule = await import("../receitaDrinks.json", {
-//     assert: { type: 'json' }
-//   });
-//   console.log(jsonModule.default.drinks); // 42
-
-// var jqxhr = $.getJSON( "../receitaDrinks.js", function() {
-//     console.log( "success" );
-//   })
-//   console.log(jqxhr)
-const drinks = receitas.drinks
-
-
-function template() {
+function template(data) {
     return `
-    ${drinks.map((receita, index) => {// Esssa função tem objetivo, de ler o JSON
+    ${data.drinks.map((receita, index) => {// Esssa função tem objetivo, de ler o JSON
         return `
     
         <div class='receita n${index}'> 
@@ -133,18 +144,18 @@ divProdutos.style.display = 'none';
 div.appendChild(divProdutos);
 
 //div preparo ja tem todo o conteudo
-const divPreparo = document.createElement('div');
-divPreparo.className = 'divPreparo'
-divPreparo.style.display = 'none'
-divPreparo.innerHTML = template()
-div.appendChild(divPreparo);
+// const divPreparo = document.createElement('div');
+// divPreparo.className = 'divPreparo'
+// divPreparo.style.display = 'none'
+// divPreparo.innerHTML = template(data)
+// div.appendChild(divPreparo);
 
-// Botão para de scrollto, para subir para o top da pagina
-const buttoUp = document.createElement('button')
-buttoUp.className = 'buttoUp';
-buttoUp.innerHTML = 'Up';
-buttoUp.addEventListener('click',() => window.scrollTo(0,0))
-divPreparo.appendChild(buttoUp);
+// // Botão para de scrollto, para subir para o top da pagina
+// const buttoUp = document.createElement('button')
+// buttoUp.className = 'buttoUp';
+// buttoUp.innerHTML = 'Up';
+// buttoUp.addEventListener('click',() => window.scrollTo(0,0))
+// divPreparo.appendChild(buttoUp);
 
 const inpCheckBox = document.createElement('input');
 inpCheckBox.className ='inpChecBox';
@@ -159,4 +170,8 @@ headerx.appendChild(labelDark);
 
 document.body.appendChild(div)//Adicionando a DIV principal dentro da tag body
 
+
+
+
+const myList = document.querySelector("ul");
 
